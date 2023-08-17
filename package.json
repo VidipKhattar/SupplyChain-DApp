@@ -3,13 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/react": "^2.5.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@truffle/contract": "^4.6.18",
+    "@web3-react/core": "^6.1.9",
+    "chai": "^4.3.7",
+    "ethers": "^6.3.0",
+    "framer-motion": "^10.10.0",
+    "hardhat": "^2.14.0",
+    "html-webpack-plugin": "^5.5.1",
+    "qrcode": "^1.5.1",
+    "qrcode.react": "^3.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router": "^6.10.0",
+    "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "truffle-assertions": "^0.9.2",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +50,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "hardhat-gas-reporter": "^1.0.9",
+    "hardhat-watcher": "^2.5.0",
+    "nyc": "^15.1.0",
+    "solidity-coverage": "^0.8.2"
   }
 }

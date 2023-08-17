@@ -1,0 +1,43 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/vidipkhattar/Desktop/my-app/contracts/SoybeanSupplyChain.sol": {
+      "lastModificationDate": 1682158452900,
+      "contentHash": "4582939fcc1f16103b841d2872963a90",
+      "sourceName": "contracts/SoybeanSupplyChain.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SoybeanSupplyChain"
+      ]
+    }
+  }
+}

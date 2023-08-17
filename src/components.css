@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f0f5;
+  padding-left: 1rem;
+  text-align: center;
+  
+}
+
+h1 {
+  color: #50c878;
+}
+
+p {
+  color: #50c878;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #50c878;
+}
+
+select {
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #50c878;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+button:hover {
+  color: #40a167;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+    margin: 0 auto;
+
+}
+
+thead {
+  background-color: #50c878;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.soybean-info {
+  background-color: #f9f9f9;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.soybean-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.soybean-info p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.soybean-info p:first-child {
+  margin-top: 0;
+}
+
+.soybean-info p:last-child {
+  margin-bottom: 0;
+}
